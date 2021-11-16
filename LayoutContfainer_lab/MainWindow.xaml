@@ -1,0 +1,53 @@
+﻿<Window x:Class="LayoutContfainer_lab.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LayoutContfainer_lab"
+        mc:Ignorable="d"
+        Title="" Height="728" Width="450" MinHeight="728" MinWidth="450">
+    <Grid Background="#FFE6E6E6" Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.32*"/>
+            <RowDefinition Height="3.28*"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock Text="0" FontSize="48" FontWeight="Bold" Padding="10" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" TextWrapping="NoWrap" TextAlignment="Right" />
+        
+        <UniformGrid Grid.Row="1" Rows="1" Columns="5" Margin="2">
+            <Button Content="MC" FontSize="14"  FontWeight="Bold" Margin="2" BorderThickness="0" Background="{x:Null}"/>
+            <Button Content="MR" FontSize="14"  FontWeight="Bold" Margin="2" BorderThickness="0" Background="{x:Null}"/>
+            <Button Content="M+" FontSize="14"  FontWeight="Bold" Margin="2" BorderThickness="0" Background="{x:Null}"/>
+            <Button Content="M-" FontSize="14"  FontWeight="Bold" Margin="2" BorderThickness="0" Background="{x:Null}"/>
+            <Button Content="MS" FontSize="14"  FontWeight="Bold" Margin="2" BorderThickness="0" Background="{x:Null}"/>
+        </UniformGrid>
+        <UniformGrid Grid.Row="2" Rows="6" Columns="4" Margin="2">
+            <Button Content="%" Background="#FFF0F0F0" FontSize="22" Margin="2" BorderThickness="0"/>
+            <Button Content="CE" Background="#FFF0F0F0" FontSize="18" Margin="2" BorderThickness="0"/>
+            <Button Content="C" Background="#FFF0F0F0" FontSize="18" Margin="2" BorderThickness="0"/>
+            <Button Content="Õ" Background="#FFF0F0F0" FontSize="22" FontFamily="Wingdings"  Margin="2" BorderThickness="0"/>
+            <Button Content="⅟x" Background="#FFF0F0F0" FontSize="22" Margin="2" BorderThickness="0"/>
+            <Button Content="x²" Background="#FFF0F0F0" FontSize="22" Margin="2" BorderThickness="0"/>
+            <Button Content="²√x" Background="#FFF0F0F0" FontSize="18" Margin="2" BorderThickness="0"/>
+            <Button Content="÷" Background="#FFF0F0F0" FontSize="22" Margin="2" BorderThickness="0"/>
+            <Button Content="7" Background="#FFFAFAFA" FontSize="18" Margin="2" BorderThickness="0"/>
+            <Button Content="8" Background="#FFFAFAFA" FontSize="18" FontWeight="Bold" Margin="2" BorderThickness="0"/>
+            <Button Content="9" Background="#FFFAFAFA" FontSize="18" FontWeight="Bold" Margin="2" BorderThickness="0"/>
+            <Button Content="×" Background="#FFF0F0F0" FontSize="22" Margin="2" BorderThickness="0"/>
+            <Button Content="4" Background="#FFFAFAFA" FontSize="18" FontWeight="Bold" Margin="2" BorderThickness="0"/>
+            <Button Content="5" Background="#FFFAFAFA" FontSize="18" FontWeight="Bold" Margin="2" BorderThickness="0"/>
+            <Button Content="6" Background="#FFFAFAFA" FontSize="18" FontWeight="Bold" Margin="2" BorderThickness="0"/>
+            <Button Content="‒" Background="#FFF0F0F0" FontSize="22" Margin="2" BorderThickness="0"/>
+            <Button Content="1" Background="#FFFAFAFA" FontSize="18" FontWeight="Bold" Margin="2" BorderThickness="0"/>
+            <Button Content="2" Background="#FFFAFAFA" FontSize="18" FontWeight="Bold" Margin="2" BorderThickness="0"/>
+            <Button Content="3" Background="#FFFAFAFA" FontSize="18" FontWeight="Bold" Margin="2" BorderThickness="0"/>
+            <Button Content="+" Background="#FFF0F0F0" FontSize="22" Margin="2" BorderThickness="0"/>
+            <Button Content="±" Background="#FFFAFAFA" FontSize="22" Margin="2" BorderThickness="0"/>
+            <Button Content="0" Background="#FFFAFAFA" FontSize="18" FontWeight="Bold" Margin="2" BorderThickness="0"/>
+            <Button Content="," Background="#FFFAFAFA" FontSize="22" Margin="2" BorderThickness="0"/>
+            <Button Content="=" Background="#FF9EA2A8" FontSize="22" Margin="2" BorderThickness="0"/>
+        </UniformGrid>
+        
+    </Grid>
+</Window>
